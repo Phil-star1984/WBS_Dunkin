@@ -1,68 +1,182 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Phillip */
 
+@font-face {
+  font-family: "RockoFLF";
+  src: url("./fonts/RockoFLF.ttf") format("truetype");
+}
 
+@font-face {
+  font-family: "RockoFLF-Bold";
+  src: url("./fonts/RockoFLF-Bold.ttf") format("truetype");
+}
 
+@font-face {
+  font-family: "RockoUltraFLF";
+  src: url("./fonts/RockoUltraFLF.ttf") format("truetype");
+}
 
+@font-face {
+  font-family: "RockoUltraFLF-Bold";
+  src: url("./fonts/RockoUltraFLF-Bold.ttf") format("truetype");
+}
 
+.nav_container_outer {
+  width: 100%;
+  /*   display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* border: 2px solid rgb(255, 128, 0); */
+}
 
+.aktion_container {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fe6f0c;
+  height: 35px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.nav_container {
+  max-width: 1600px;
+  min-width: 860px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid blue; */
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 12em;
+  padding-left: 12em;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
 
+nav ul {
+  font-family: "RockoFLF-bold", sans-serif;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.logo img {
+  width: 120px;
+}
 
+nav ul {
+  list-style: none;
+}
 
+nav a {
+  text-decoration: none;
+  color: #512d00;
+  margin: 10px 20px;
+}
 
+.order {
+  display: flex;
+  align-items: center;
+}
 
+.flag {
+  width: 40px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(210, 210, 210);
+}
 
+.flag img {
+  width: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.order_button {
+  font-family: "RockoFLF-bold", sans-serif;
+  margin-left: 20px;
+  background-color: #fe6f0c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
 
+.hero_container_outer {
+  /* border: 2px solid rgb(255, 0, 217); */
+  display: flex;
+  justify-content: center;
+}
 
+.hero_container {
+  margin-top: 30px;
+  width: 1600px;
+  min-width: 860px;
+  /* background-color: #512d00; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 2px solid rgb(43, 255, 0); */
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 12em;
+  padding-left: 12em;
+}
 
+.hero_container_one {
+  width: 59%;
+  padding-right: 10px;
+}
 
+.hero_container_two {
+  width: 41%;
+  padding-left: 10px;
+}
+
+.coffee img {
+  width: 100%;
+}
+
+.coffee img:hover {
+  width: 98%;
+}
+
+.delivery img {
+  width: 100%;
+  /* margin-left: 20px; */
+}
+
+.delivery img:hover {
+  width: 98%;
+}
+
+.vegan img {
+  width: 100%;
+  padding-top: 18px;
+  /* margin-left: 20px; */
+  /* padding-right: 20px; */
+}
+
+.vegan img:hover {
+  width: 98%;
+}
 
 /* Ayla */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Jennifer */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Kevin */
-
-
-
-
-
-
-
-
-
-
-
-
