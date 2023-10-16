@@ -1,68 +1,129 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Phillip */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Ayla */
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dddcdc;
+}
+@font-face {
+  font-family: "RockoFLF-Bold";
+  src: url("fonts/RockoFLF-Bold.ttf") format("truetype");
+}
 
+@font-face {
+  font-family: "RockoUltraFLF-Bold";
+  src: url("fonts/RockoUltraFLF-Bold.ttf") format("truetype");
+}
 
+.dunkin-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12rem;
+  background-color: #dddcdc;
+}
 
+.left-section {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-family: "RockoUltraFLF-Bold", Arial, sans-serif;
+}
 
+.left-section h1 {
+  font-size: 5.5rem;
+  margin: auto;
+  text-align: start;
+}
 
+.left-section h1 .first-part {
+  color: #f20d90;
+}
 
+.left-section h1 .second-part {
+  color: #ff6e0c;
+}
 
+.left-section button {
+  background-color: #ff6e0c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  margin-top: 20px;
+  text-align: start;
+}
 
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex: 1;
+}
 
+/* Style the individual boxes */
+.box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
 
+.box img {
+  padding: 10px;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  margin-right: 20px;
+  background-color: #f20d90;
+}
 
+.box img[alt="Image 2"] {
+  background-color: #ff6e0c;
+}
+
+.box .text {
+  text-align: left;
+}
+
+.box h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  color: #f20d90;
+  font-family: "RockoUltraFLF-Bold", Arial, sans-serif;
+}
+
+.box p {
+  font-size: 14px;
+  margin: 0;
+  color: grey;
+}
+
+.box:nth-child(2) {
+  margin-right: 20%;
+}
+.box:nth-child(1),
+.box:nth-child(3) {
+  margin-left: 18%;
+}
 
 /* Jennifer */
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Kevin */
-
-
-
-
-
-
-
-
-
-
-
-
