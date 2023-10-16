@@ -12,7 +12,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #dddcdc;
+  background-color: #eae9e9;
 }
 @font-face {
   font-family: "RockoFLF-Bold";
@@ -28,8 +28,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12rem;
-  background-color: #dddcdc;
+  margin: 0 12rem;
+
+  padding: 50px 0;
 }
 
 .left-section {
@@ -69,6 +70,10 @@ body {
   font-family: "RockoFLF-Bold", Arial, sans-serif;
 }
 
+.left-section button:hover {
+  transition: transform 0.5s;
+  transform: scale(1.08, 1.08);
+}
 .right-section {
   display: flex;
   flex-direction: column;
@@ -81,8 +86,13 @@ body {
   align-items: center;
   margin-bottom: 20px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 1.5rem;
   padding: 30px;
+}
+
+.box:hover {
+  transition: transform 0.5s;
+  transform: scale(1.08, 1.08);
 }
 
 .box img {
@@ -111,7 +121,7 @@ body {
 }
 
 .box p {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0;
   color: grey;
 }
@@ -122,6 +132,53 @@ body {
 .box:nth-child(1),
 .box:nth-child(3) {
   margin-left: 18%;
+}
+.box-section {
+  background-color: rgb(113, 197, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 12rem 5rem 12rem;
+  border-radius: 1rem;
+  max-height: 30rem;
+  padding: 20px 0;
+}
+
+.box-section .box-left {
+  flex: 1;
+
+  text-align: center;
+  object-fit: cover;
+}
+
+.box-section .box-img {
+  height: auto;
+  align-items: center;
+}
+
+.box-section .box-right {
+  flex: 1;
+  text-align: start;
+}
+
+.box-section h3,
+.box-section p {
+  color: #ffffff;
+  padding-bottom: 15px;
+  font-family: "RockoFLF-Bold", Arial, sans-serif;
+}
+
+.box-section h2 {
+  font-size: 5rem;
+  font-family: "RockoUltraFLF-Bold", Arial, sans-serif;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.box-section .app-store-images img {
+  width: 300px;
+  height: auto;
+  margin: 5px;
 }
 
 /* Jennifer */
