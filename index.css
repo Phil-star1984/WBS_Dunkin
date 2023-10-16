@@ -6,26 +6,180 @@
 
 /* Phillip */
 
+/* Ayla */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eae9e9;
+}
 
 
-@font-face {
+.dunkin-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 12rem;
+
+  padding: 50px 0;
+}
+
+.left-section {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-family: "RockoUltraFLF-Bold", Arial, sans-serif;
+}
+
+.left-section h1 {
+  font-size: 5.5rem;
+  margin: auto;
+  text-align: start;
+}
+
+.left-section h1 .first-part {
+  color: #f20d90;
+}
+
+.left-section h1 .second-part {
+  color: #ff6e0c;
+}
+
+.left-section button {
+  background-color: #ff6e0c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  margin-top: 20px;
+  text-align: start;
+  font-family: "RockoFLF-Bold", Arial, sans-serif;
+}
+
+.left-section button:hover {
+  transition: transform 0.5s;
+  transform: scale(1.08, 1.08);
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex: 1;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 30px;
+}
+
+.box:hover {
+  transition: transform 0.5s;
+  transform: scale(1.08, 1.08);
+}
+
+.box img {
+  padding: 10px;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  margin-right: 20px;
+  background-color: #f20d90;
+}
+
+.box img[alt="Image 2"] {
+  background-color: #ff6e0c;
+}
+
+.box .text {
+  text-align: left;
+}
+
+.box h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  color: #f20d90;
+  font-family: "RockoUltraFLF-Bold", Arial, sans-serif;
+}
+
+.box p {
+  font-size: 15px;
+  margin: 0;
+  color: grey;
+}
+
+.box:nth-child(2) {
+  margin-right: 20%;
+}
+.box:nth-child(1),
+.box:nth-child(3) {
+  margin-left: 18%;
+}
+.box-section {
+  background-color: rgb(113, 197, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 12rem 5rem 12rem;
+  border-radius: 1rem;
+  max-height: 30rem;
+  padding: 20px 0;
+}
+
+.box-section .box-left {
+  flex: 1;
+
+  text-align: center;
+  object-fit: cover;
+}
+
+.box-section .box-img {
+  height: auto;
+  align-items: center;
+}
+
+.box-section .box-right {
+  flex: 1;
+  text-align: start;
+}
+
+.box-section h3,
+.box-section p {
+  color: #ffffff;
+  padding-bottom: 15px;
+  font-family: "RockoFLF-Bold", Arial, sans-serif;
+
   font-family: "RockoFLF";
   src: url("./fonts/RockoFLF.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "RockoFLF-Bold";
-  src: url("./fonts/RockoFLF-Bold.ttf") format("truetype");
-}
 
 @font-face {
   font-family: "RockoUltraFLF";
   src: url("./fonts/RockoUltraFLF.ttf") format("truetype");
 }
 
+
+
 @font-face {
+  font-family: "RockoFLF-Bold";
+  src: url("fonts/RockoFLF-Bold.ttf") format("truetype");
+}
+
+@font-face {
+
   font-family: "RockoUltraFLF-Bold";
-  src: url("./fonts/RockoUltraFLF-Bold.ttf") format("truetype");
+  src: url("fonts/RockoUltraFLF-Bold.ttf") format("truetype");
 }
 
 .nav_container_outer {
@@ -175,14 +329,29 @@ nav a {
 
 .vegan img:hover {
   width: 98%;
+
+}
+
+.box-section h2 {
+  font-size: 5rem;
+  font-family: "RockoUltraFLF-Bold", Arial, sans-serif;
+  color: #ffffff;
+  padding-bottom: 15px;
 }
 
 
-/* Ayla */
+.box-section .app-store-images img {
+  width: 300px;
+  height: auto;
+  margin: 5px;
+}
+
 
 /* Jennifer */
 
 /* Kevin */
+
+
 
 /* location  */
 .storefinder {
@@ -464,4 +633,5 @@ nav a {
   text-decoration: none;
 }
 /* footer  */
+
 
